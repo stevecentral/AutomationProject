@@ -1,0 +1,9 @@
+login user user
+wait 5 seconds
+power
+wait 10 seconds
+tile_pattern id
+wait 10 seconds
+tile_pattern off
+wait 5 seconds
+power

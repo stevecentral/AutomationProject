@@ -1,0 +1,3 @@
+highlight submit_button
+check footer_text
+check_text footer_text

@@ -1,0 +1,3 @@
+screenshot
+highlight footer_text
+image_compare loginref.png

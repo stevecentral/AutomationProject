@@ -1,0 +1,5 @@
+192.168.233.180
+
+login user user
+click system_settings_button
+highlight style_element_32
