@@ -1,4 +1,3 @@
-# log_handler.py
 import telnetlib3
 import asyncio
 from threading import Thread, Event
@@ -138,3 +137,4 @@ class LogHandler:
                 print(f"Error sending command: {e}")
                 return False
         return False
+        
