@@ -127,7 +127,7 @@ class Ui_Dialog(object):
         layout.addWidget(text_edit)
         tab.setLayout(layout)
 
-        self.logTabWidget.addTab(tab, f"Log {self.logTabWidget.count() + 1}")
+        self.logTabWidget.addTab(tab, f"Log {self.logTabWidget.count() + 1} - {host}")
 
         # Create a new LogHandler for this tab
         log_handler = LogHandler(host)  # Use the user-provided host
@@ -412,7 +412,14 @@ class Ui_Dialog(object):
 
 
     def clear_logs(self):
-        self.logViewer.clear()
+        # Clear logs in the current tab
+        current_index = self.logTabWidget.currentIndex()
+        if current_index != -1:
+            current_widget = self.logTabWidget.widget(current_index)
+            if current_widget:
+                text_edit = current_widget.findChild(QtWidgets.QTextEdit)
+                if text_edit:
+                    text_edit.clear()
 
 
     def cleanup(self):
