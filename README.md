@@ -1,0 +1,1 @@
+The Log Viewer Application is a tool designed to connect to multiple wall controllers or octrollers via Telnet, allowing users to view and manage logs in real-time. The application provides a graphical interface for adding and managing multiple log streams simultaneously.
