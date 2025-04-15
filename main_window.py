@@ -8,27 +8,16 @@
 
 import os
 import subprocess
-import time
-import telnetlib3
-import asyncio
-from threading import Thread, Event
-from queue import Queue
 from PyQt6.QtWidgets import QFileDialog
 from PyQt6 import QtCore, QtGui, QtWidgets
-import socket
-import select
-
-import telnetlib3
-import asyncio
-from threading import Thread, Event
-from queue import Queue
-import time
+from threading import Thread
 from log_handler import LogHandler
+import time
 
 
 class Ui_Dialog(object):
     def __init__(self):
-        self.log_handler = None
+        self.log_handlers = []
         self.log_update_timer = None
         self.test_thread = None
         self.queue_files = {}  # Add this for queue functionality
@@ -39,7 +28,7 @@ class Ui_Dialog(object):
         Dialog.setObjectName("Dialog")
         Dialog.resize(900, 800)
         self.buttonBox = QtWidgets.QDialogButtonBox(parent=Dialog)
-        self.buttonBox.setGeometry(QtCore.QRect(64, 445, 161, 32))
+        self.buttonBox.setGeometry(QtCore.QRect(64, 445, 161, 23))
         self.buttonBox.setOrientation(QtCore.Qt.Orientation.Horizontal)
         self.buttonBox.setStandardButtons(QtWidgets.QDialogButtonBox.StandardButton.Cancel|QtWidgets.QDialogButtonBox.StandardButton.Ok)
         self.buttonBox.setObjectName("buttonBox")
@@ -76,13 +65,17 @@ class Ui_Dialog(object):
         self.clearButton = QtWidgets.QPushButton(parent=Dialog)
         self.clearButton.setGeometry(QtCore.QRect(151, 709, 75, 23))
         self.clearButton.setObjectName("clearButton")
-        self.logViewer = QtWidgets.QTextBrowser(parent=Dialog)
-        self.logViewer.setGeometry(QtCore.QRect(70, 490, 755, 201))
-        font = QtGui.QFont()
-        font.setFamily("Courier")
-        self.logViewer.setFont(font)
-        self.logViewer.setLineWrapMode(QtWidgets.QTextEdit.LineWrapMode.NoWrap)
-        self.logViewer.setObjectName("logViewer")
+
+
+        self.logTabWidget = QtWidgets.QTabWidget(Dialog)
+        self.logTabWidget.setGeometry(QtCore.QRect(70, 480, 758, 221))
+        self.logTabWidget.setObjectName("logTabWidget")
+
+        # Add a button to add new log tabs
+        self.addTabButton = QtWidgets.QPushButton("Add Log Tab", Dialog)
+        self.addTabButton.setGeometry(QtCore.QRect(726, 709, 100, 23))
+        self.addTabButton.setObjectName("addTabButton")
+        self.addTabButton.clicked.connect(self.add_log_tab)
 
         # Functionality for buttons
         self.loadScriptButton.clicked.connect(self.open_file_dialog)
@@ -119,16 +112,77 @@ class Ui_Dialog(object):
         self.instructionsButton.setText(_translate("Dialog", "Commands Help"))
         self.connectButton.setText(_translate("Dialog", "Connect"))
         self.clearButton.setText(_translate("Dialog", "Clear"))
+        self.addTabButton.setText(_translate("Dialog", "Add Log Tab"))
+
+    def add_log_tab(self):
+        # Prompt user for host information
+        host, ok = QtWidgets.QInputDialog.getText(None, "Enter Host", "Host:")
+        if not ok or not host:
+            return
+
+        # Create a new tab with a QTextEdit for logs
+        tab = QtWidgets.QWidget()
+        layout = QtWidgets.QVBoxLayout()
+        text_edit = QtWidgets.QTextEdit()
+        layout.addWidget(text_edit)
+        tab.setLayout(layout)
+
+        self.logTabWidget.addTab(tab, f"Log {self.logTabWidget.count() + 1}")
+
+        # Create a new LogHandler for this tab
+        log_handler = LogHandler(host)  # Use the user-provided host
+        self.log_handlers.append(log_handler)
+        log_handler.connect()
+
+        # Start a thread to update the text edit with logs
+        def update_logs():
+            while log_handler.connected:
+                if not log_handler.log_queue.empty():
+                    log = log_handler.log_queue.get()
+                    text_edit.append(log)
+                time.sleep(0.1)
+
+        Thread(target=update_logs, daemon=True).start()
+
+    def closeEvent(self, event):
+        for handler in self.log_handlers:
+            handler.disconnect()
+        event.accept()
 
 
     # ====== Test Execution Methods ======
     def run_script_generator(self):
         """Main entry point for test execution"""
-        self.setup_logging()
-        if not self.queue_files:
-            self.run_single_test_thread()
-        else:
-            self.run_queue_tests_thread()
+        try:
+            # Only try to setup logging if already connected
+            if hasattr(self, 'log_handler') and self.log_handler and self.log_handler.connected:
+                self.setup_logging()
+
+            # Run tests regardless of logging status
+            if not self.queue_files:
+                self.run_single_test_thread()
+            else:
+                self.run_queue_tests_thread()
+
+        except Exception as e:
+            QtWidgets.QMessageBox.critical(
+                None,
+                "Error",
+                f"Failed to start test execution: {str(e)}"
+            )
+
+    def setup_logging(self):
+        """Initialize log handler if not already set up"""
+        try:
+            if not self.log_handler:
+                address = self.addressTextBox.text()
+                self.log_handler = LogHandler(address, callback=self.update_logs)
+                if self.log_handler.connect():
+                    self.log_update_timer = QtCore.QTimer()
+                    self.log_update_timer.timeout.connect(self.update_logs)
+                    self.log_update_timer.start(100)
+        except Exception as e:
+            print(f"Warning: Could not setup logging: {e}")
 
     def run_single_test_thread(self):
         """Execute a single test in a separate thread"""
@@ -207,9 +261,8 @@ class Ui_Dialog(object):
         )
         print(f"Test {test_name} output:", result.stdout)
 
-    # ====== Queue Management Methods ======
+
     def add_to_queue(self, file_path):
-        """Add a file to the test queue"""
         try:
             file_name = os.path.basename(file_path)
             item_widget = QtWidgets.QWidget()
@@ -240,33 +293,40 @@ class Ui_Dialog(object):
         except Exception as e:
             QtWidgets.QMessageBox.critical(None, "Error", f"Failed to add file to queue: {str(e)}")
 
+
     def remove_from_queue(self, file_name):
-        """Remove a file from the test queue"""
         if file_name in self.queue_files:
             item = self.queue_files[file_name]['item']
             self.testQueue.takeItem(self.testQueue.row(item))
             del self.queue_files[file_name]
 
-    def on_queue_item_clicked(self, item):
-        """Handle queue item selection"""
-        widget = self.testQueue.itemWidget(item)
-        file_name = widget.layout().itemAt(0).widget().text()
-        if file_name in self.queue_files:
-            self.commandsTextBox.setPlainText(self.queue_files[file_name]['content'])
 
-    # ====== Logging Methods ======
-    def setup_logging(self):
-        """Initialize logging handler"""
-        if not self.log_handler:
-            address = self.addressTextBox.text()
-            self.log_handler = LogHandler(address, callback=self.update_logs)
-            if self.log_handler.connect():
-                self.log_update_timer = QtCore.QTimer()
-                self.log_update_timer.timeout.connect(self.update_logs)
-                self.log_update_timer.start(100)
+    def on_queue_item_clicked(self, item):
+        try:
+            widget = self.testQueue.itemWidget(item)
+            if not widget:
+                return
+
+            # Get the file name from the label
+            file_name = widget.layout().itemAt(0).widget().text()
+
+            if file_name in self.queue_files:
+                # Display the content in the commands text box
+                self.commandsTextBox.setPlainText(self.queue_files[file_name]['content'])
+
+                # Optionally highlight or mark the selected item
+                for i in range(self.testQueue.count()):
+                    item_widget = self.testQueue.itemWidget(self.testQueue.item(i))
+                    if item_widget:
+                        item_widget.setStyleSheet("")
+
+                widget.setStyleSheet("background-color: #e0e0e0;")
+
+        except Exception as e:
+            print(f"Error displaying test content: {e}")
+
 
     def update_logs(self):
-        """Update log viewer with new entries"""
         if self.log_handler and not self.log_handler.log_queue.empty():
             while not self.log_handler.log_queue.empty():
                 log_entry = self.log_handler.log_queue.get()
@@ -280,15 +340,15 @@ class Ui_Dialog(object):
                         self.logViewer.verticalScrollBar().maximum()
                     )
 
+
     def toggle_log_connection(self):
-        """Toggle log connection state"""
         if not self.log_handler or not self.log_handler.connected:
             self.connect_logs()
         else:
             self.disconnect_logs()
 
+
     def connect_logs(self):
-        """Establish log connection"""
         ip_address = self.addressTextBox.text()
         if not ip_address:
             QtWidgets.QMessageBox.warning(None, "Warning", "Please enter an IP address")
@@ -305,8 +365,8 @@ class Ui_Dialog(object):
         else:
             QtWidgets.QMessageBox.critical(None, "Error", "Failed to connect to device logs")
 
+
     def disconnect_logs(self):
-        """Disconnect from logs"""
         if self.log_handler:
             self.log_handler.disconnect()
             self.log_update_timer.stop()
@@ -314,9 +374,8 @@ class Ui_Dialog(object):
             self.logViewer.append("Disconnected from device logs.\n")
             self.log_handler = None
 
-    # ====== File Operations ======
+
     def save_file_dialog(self):
-        """Save current test to file"""
         try:
             content = self.commandsTextBox.toPlainText()
             if not content:
@@ -337,6 +396,7 @@ class Ui_Dialog(object):
         except Exception as e:
             QtWidgets.QMessageBox.critical(None, "Error", f"Failed to save file: {str(e)}")
 
+
     def open_file_dialog(self):
         try:
             filenames, _ = QtWidgets.QFileDialog.getOpenFileNames(
@@ -350,9 +410,10 @@ class Ui_Dialog(object):
         except Exception as e:
             print(f"Error opening file: {str(e)}")
 
-    # ====== Utility Methods ======
+
     def clear_logs(self):
         self.logViewer.clear()
+
 
     def cleanup(self):
         if self.log_handler:
@@ -360,21 +421,24 @@ class Ui_Dialog(object):
         if self.log_update_timer:
             self.log_update_timer.stop()
 
-    # ====== Qt Slots ======
+
     @QtCore.pyqtSlot()
     def test_completed(self):
         """Handle test completion"""
         QtWidgets.QMessageBox.information(None, "Success", "Test execution completed successfully")
+
 
     @QtCore.pyqtSlot(str)
     def test_progress(self, file_name):
         """Handle test progress"""
         print(f"Completed test: {file_name}")
 
+
     @QtCore.pyqtSlot()
     def queue_completed(self):
         """Handle queue completion"""
         QtWidgets.QMessageBox.information(None, "Success", "All queued tests completed successfully")
+
 
     @QtCore.pyqtSlot(str)
     def test_failed(self, error_message):
@@ -396,5 +460,3 @@ class Ui_Dialog(object):
             "power: power_toggle,\n"
             "check_text: check_text,"
         )
-
-
