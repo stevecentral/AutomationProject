@@ -17,11 +17,12 @@ import time
 
 class Ui_Dialog(object):
     def __init__(self):
-        self.log_handlers = []
+        self.log_handlers = {}
         self.log_update_timer = None
         self.test_thread = None
         self.queue_files = {}  # Add this for queue functionality
         self.test_counter = 0
+        self.connection_states = {}
 
 
     def setupUi(self, Dialog):
@@ -97,6 +98,8 @@ class Ui_Dialog(object):
         # Connect button signal
         self.connectButton.clicked.connect(self.toggle_log_connection)
 
+        self.logTabWidget.currentChanged.connect(self.on_tab_changed)
+
         self.test_count = 0
 
         Dialog.finished.connect(self.cleanup)
@@ -127,27 +130,120 @@ class Ui_Dialog(object):
         layout.addWidget(text_edit)
         tab.setLayout(layout)
 
-        self.logTabWidget.addTab(tab, f"Log {self.logTabWidget.count() + 1} - {host}")
+        index = self.logTabWidget.addTab(tab, f"Log {self.logTabWidget.count() + 1} - {host}")
 
-        # Create a new LogHandler for this tab
-        log_handler = LogHandler(host)  # Use the user-provided host
-        self.log_handlers.append(log_handler)
-        log_handler.connect()
+        # Initialize the connection state as disconnected
+        self.log_handlers[index] = {'handler': None, 'host': host, 'connected': False}
 
+
+    def start_log_thread(self, log_handler, text_edit):
         # Start a thread to update the text edit with logs
         def update_logs():
-            while log_handler.connected:
-                if not log_handler.log_queue.empty():
-                    log = log_handler.log_queue.get()
-                    text_edit.append(log)
-                time.sleep(0.1)
+            try:
+                while log_handler.connected:
+                    if not log_handler.log_queue.empty():
+                        log = log_handler.log_queue.get()
+                        text_edit.append(log)
+                    time.sleep(0.1)
+            except Exception as e:
+                print(f"Error in log update thread: {e}")
 
         Thread(target=update_logs, daemon=True).start()
 
+
     def closeEvent(self, event):
-        for handler in self.log_handlers:
-            handler.disconnect()
+        for log_info in self.log_handlers.values():
+            log_info['handler'].disconnect()
         event.accept()
+
+
+    def update_logs(self):
+        if self.log_handler and not self.log_handler.log_queue.empty():
+            while not self.log_handler.log_queue.empty():
+                log_entry = self.log_handler.log_queue.get()
+                if log_entry:
+                    # Ensure the log entry ends with a newline
+                    if not log_entry.endswith('\n'):
+                        log_entry += '\n'
+                    self.logViewer.append(log_entry)
+                    # Scroll to the bottom
+                    self.logViewer.verticalScrollBar().setValue(
+                        self.logViewer.verticalScrollBar().maximum()
+                    )
+
+    def toggle_log_connection(self):
+        current_index = self.logTabWidget.currentIndex()
+        if current_index in self.log_handlers:
+            log_info = self.log_handlers[current_index]
+            if not log_info['connected']:
+                # Attempt to connect
+                log_handler = LogHandler(log_info['host'])
+                if log_handler.connect():
+                    log_info['handler'] = log_handler
+                    log_info['connected'] = True
+                    self.start_log_thread(log_handler,
+                                          self.logTabWidget.widget(current_index).findChild(QtWidgets.QTextEdit))
+                    self.connectButton.setText("Disconnect")
+                else:
+                    QtWidgets.QMessageBox.critical(None, "Error", f"Failed to connect to {log_info['host']}")
+            else:
+                # Disconnect
+                log_info['handler'].disconnect()
+                log_info['connected'] = False
+                self.connectButton.setText("Connect")
+
+
+    def on_tab_changed(self, index):
+        if index in self.log_handlers and self.log_handlers[index]['connected']:
+            self.connectButton.setText("Disconnect")
+        else:
+            self.connectButton.setText("Connect")
+
+
+    def connect_logs(self):
+        ip_address = self.addressTextBox.text()
+        if not ip_address:
+            QtWidgets.QMessageBox.warning(None, "Warning", "Please enter an IP address")
+            return
+
+        self.log_handler = LogHandler(host=ip_address, port=23)
+
+        if self.log_handler.connect():
+            self.log_update_timer = QtCore.QTimer()
+            self.log_update_timer.timeout.connect(self.update_logs)
+            self.log_update_timer.start(100)  # Check every 100ms
+            self.connectButton.setText("Disconnect")
+            self.logViewer.append("Connected to device logs...")
+        else:
+            QtWidgets.QMessageBox.critical(None, "Error", "Failed to connect to device logs")
+
+
+    def disconnect_logs(self):
+        if self.log_handler:
+            self.log_handler.disconnect()
+            self.log_update_timer.stop()
+            self.connectButton.setText("Connect")
+            self.logViewer.append("Disconnected from device logs.\n")
+            self.log_handler = None
+
+
+
+    def clear_logs(self):
+        # Clear logs in the current tab
+        current_index = self.logTabWidget.currentIndex()
+        if current_index != -1:
+            current_widget = self.logTabWidget.widget(current_index)
+            if current_widget:
+                text_edit = current_widget.findChild(QtWidgets.QTextEdit)
+                if text_edit:
+                    text_edit.clear()
+
+
+    def cleanup(self):
+        if self.log_handler:
+            self.log_handler.disconnect()
+        if self.log_update_timer:
+            self.log_update_timer.stop()
 
 
     # ====== Test Execution Methods ======
@@ -326,55 +422,6 @@ class Ui_Dialog(object):
             print(f"Error displaying test content: {e}")
 
 
-    def update_logs(self):
-        if self.log_handler and not self.log_handler.log_queue.empty():
-            while not self.log_handler.log_queue.empty():
-                log_entry = self.log_handler.log_queue.get()
-                if log_entry:
-                    # Ensure the log entry ends with a newline
-                    if not log_entry.endswith('\n'):
-                        log_entry += '\n'
-                    self.logViewer.append(log_entry)
-                    # Scroll to the bottom
-                    self.logViewer.verticalScrollBar().setValue(
-                        self.logViewer.verticalScrollBar().maximum()
-                    )
-
-
-    def toggle_log_connection(self):
-        if not self.log_handler or not self.log_handler.connected:
-            self.connect_logs()
-        else:
-            self.disconnect_logs()
-
-
-    def connect_logs(self):
-        ip_address = self.addressTextBox.text()
-        if not ip_address:
-            QtWidgets.QMessageBox.warning(None, "Warning", "Please enter an IP address")
-            return
-
-        self.log_handler = LogHandler(host=ip_address, port=23)
-
-        if self.log_handler.connect():
-            self.log_update_timer = QtCore.QTimer()
-            self.log_update_timer.timeout.connect(self.update_logs)
-            self.log_update_timer.start(100)  # Check every 100ms
-            self.connectButton.setText("Disconnect")
-            self.logViewer.append("Connected to device logs...")
-        else:
-            QtWidgets.QMessageBox.critical(None, "Error", "Failed to connect to device logs")
-
-
-    def disconnect_logs(self):
-        if self.log_handler:
-            self.log_handler.disconnect()
-            self.log_update_timer.stop()
-            self.connectButton.setText("Connect")
-            self.logViewer.append("Disconnected from device logs.\n")
-            self.log_handler = None
-
-
     def save_file_dialog(self):
         try:
             content = self.commandsTextBox.toPlainText()
@@ -409,24 +456,6 @@ class Ui_Dialog(object):
                 self.add_to_queue(filename)
         except Exception as e:
             print(f"Error opening file: {str(e)}")
-
-
-    def clear_logs(self):
-        # Clear logs in the current tab
-        current_index = self.logTabWidget.currentIndex()
-        if current_index != -1:
-            current_widget = self.logTabWidget.widget(current_index)
-            if current_widget:
-                text_edit = current_widget.findChild(QtWidgets.QTextEdit)
-                if text_edit:
-                    text_edit.clear()
-
-
-    def cleanup(self):
-        if self.log_handler:
-            self.log_handler.disconnect()
-        if self.log_update_timer:
-            self.log_update_timer.stop()
 
 
     @QtCore.pyqtSlot()
