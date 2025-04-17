@@ -9,7 +9,8 @@ from pkg_resources import working_set
 
 import action_functions
 from action_functions import (login, logout, power_cycle, check_element, screenshot, check_button, click, power_toggle,
-                              check_text, wait, highlight, set_tile_pattern, compare_images, compare_elements)
+                              check_text, wait, highlight, set_tile_pattern, compare_images, compare_elements,
+                              send_serial_command)
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -45,7 +46,8 @@ command_map = {
     "highlight": highlight,
     "tile_pattern": set_tile_pattern,
     "image_compare": compare_images,
-    "element_compare": compare_elements
+    "element_compare": compare_elements,
+    "send_serial": send_serial_command
 }
 
 
@@ -170,6 +172,10 @@ def process_command(command):
                 reference = args[1]
                 comparison_count += 1
                 func(driver, element, reference, comparison_count)
+
+            elif action == "send_serial":
+                command = args[0]
+                func(command, address)
 
             return "passed"
 
