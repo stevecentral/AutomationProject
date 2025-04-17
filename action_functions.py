@@ -7,6 +7,10 @@ from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from PIL import Image, ImageChops
 import os
+import requests
+
+import telnetlib3
+import asyncio
 
 
 # Used when the element could not be located
@@ -436,3 +440,29 @@ def highlight(driver, element_name, current_page, config):
     except NoSuchElementException:
         raise ElementNotFoundException(f"Element '{element_name}' not found on the page.")
 
+
+# Send a command to the API
+async def send_serial_command(command, ip_address):
+    try:
+        # Using subprocess to execute the echo command
+        import subprocess
+
+        writer = await telnetlib3.open_connection(
+            ip_address,
+            23,
+            connect_minwait=0.1,
+            connect_maxwait=1.0
+        )
+
+        # Send the tail command after a short delay
+        await asyncio.sleep(1)
+        writer.write(f'echo "{command}" | nc {ip_address}:3002\n')
+        await writer.drain()
+
+        #cmd = f'echo "{command}" | nc {ip_address}:3002'
+        #result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+
+        # Return both stdout and stderr
+        #return result.stdout, result.stderr
+    except Exception as e:
+        return None, str(e)
