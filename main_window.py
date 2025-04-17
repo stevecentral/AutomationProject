@@ -8,9 +8,11 @@
 
 import os
 import subprocess
-from PyQt6.QtWidgets import QFileDialog
+from PyQt6.QtWidgets import QFileDialog, QWidget
 from PyQt6 import QtCore, QtGui, QtWidgets
 from threading import Thread
+
+from action_functions import send_serial_command
 from log_handler import LogHandler
 import time
 
@@ -27,7 +29,7 @@ class Ui_Dialog(object):
 
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(900, 800)
+        Dialog.resize(900, 950)
         self.buttonBox = QtWidgets.QDialogButtonBox(parent=Dialog)
         self.buttonBox.setGeometry(QtCore.QRect(64, 445, 161, 23))
         self.buttonBox.setOrientation(QtCore.Qt.Orientation.Horizontal)
@@ -66,6 +68,21 @@ class Ui_Dialog(object):
         self.clearButton = QtWidgets.QPushButton(parent=Dialog)
         self.clearButton.setGeometry(QtCore.QRect(151, 709, 75, 23))
         self.clearButton.setObjectName("clearButton")
+        self.addTabButton = QtWidgets.QPushButton(parent=Dialog)
+        self.addTabButton.setGeometry(QtCore.QRect(726, 709, 100, 23))
+        self.addTabButton.setObjectName("addTabButton")
+        self.logTabWidget = QtWidgets.QTabWidget(parent=Dialog)
+        self.logTabWidget.setGeometry(QtCore.QRect(70, 480, 758, 221))
+        self.logTabWidget.setObjectName("logTabWidget")
+        self.tab_7 = QtWidgets.QWidget()
+        self.tab_7.setObjectName("tab_7")
+        self.logTabWidget.addTab(self.tab_7, "")
+        self.tab_8 = QtWidgets.QWidget()
+        self.tab_8.setObjectName("tab_8")
+        self.logTabWidget.addTab(self.tab_8, "")
+        self.apiOutput = QtWidgets.QTextBrowser(parent=Dialog)
+        self.apiOutput.setGeometry(QtCore.QRect(70, 750, 758, 150))
+        self.apiOutput.setObjectName("apiOutput")
 
         # Create a tab widget for log display
         self.logTabWidget = QtWidgets.QTabWidget(Dialog)
@@ -103,7 +120,6 @@ class Ui_Dialog(object):
         Dialog.finished.connect(self.cleanup)
 
 
-    # Set the text for various UI elements
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
@@ -116,6 +132,8 @@ class Ui_Dialog(object):
         self.connectButton.setText(_translate("Dialog", "Connect"))
         self.clearButton.setText(_translate("Dialog", "Clear"))
         self.addTabButton.setText(_translate("Dialog", "Add Log Tab"))
+        self.logTabWidget.setTabText(self.logTabWidget.indexOf(self.tab_7), _translate("Dialog", "Tab 1"))
+        self.logTabWidget.setTabText(self.logTabWidget.indexOf(self.tab_8), _translate("Dialog", "Tab 2"))
 
 
     # ====== Loging Methods ======
@@ -129,7 +147,7 @@ class Ui_Dialog(object):
         # Create a new tab with a QTextEdit for logs
         tab = QtWidgets.QWidget()
         layout = QtWidgets.QVBoxLayout()
-        text_edit = QtWidgets.QTextEdit()
+        text_edit = QtWidgets.QTextBrowser()
         layout.addWidget(text_edit)
         tab.setLayout(layout)
 
@@ -361,6 +379,12 @@ class Ui_Dialog(object):
         )
         print(f"Test {test_name} output:", result.stdout)
 
+        # Notify that the single test is completed
+        QtCore.QMetaObject.invokeMethod(
+            self, "test_completed",
+            QtCore.Qt.ConnectionType.QueuedConnection
+        )
+
 
     # ====== Queue Methods ======
     # Add a test script file to the queue
@@ -504,6 +528,7 @@ class Ui_Dialog(object):
 
 
     def open_instructions(self):
+        QtWidgets.QMessageBox.setGeometry(300, 300, 300, 300)
         QtWidgets.QMessageBox.information(
             None,
             "Instructions",
@@ -517,3 +542,13 @@ class Ui_Dialog(object):
             "power: power_toggle,\n"
             "check_text: check_text,"
         )
+
+
+class AnotherWindow(QWidget):
+    def __init__(self):
+        super().__init__()
+        layout = QtWidgets.QVBoxLayout()
+        self.label = QtWidgets.QLabel("Instructions")
+        layout.addWidget(self.label)
+        self.setLayout(layout)
+    
