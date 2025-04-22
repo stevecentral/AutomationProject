@@ -12,6 +12,11 @@ import requests
 import telnetlib3
 import asyncio
 
+import telnetlib3
+import asyncio
+from threading import Thread
+import time
+
 
 # Used when the element could not be located
 class ElementNotFoundException(Exception):
@@ -442,27 +447,41 @@ def highlight(driver, element_name, current_page, config):
 
 
 # Send a command to the API
-async def send_serial_command(command, ip_address):
+def send_serial_command(command, address):
     try:
-        # Using subprocess to execute the echo command
-        import subprocess
+        import telnetlib3
+        import asyncio
 
-        writer = await telnetlib3.open_connection(
-            ip_address,
-            23,
-            connect_minwait=0.1,
-            connect_maxwait=1.0
-        )
+        async def send():
+            reader, writer = await telnetlib3.open_connection(
+                address,
+                23,  # Using port 23 like in log_handler
+                connect_minwait=0.1,
+                connect_maxwait=1.0
+            )
 
-        # Send the tail command after a short delay
-        await asyncio.sleep(1)
-        writer.write(f'echo "{command}" | nc {ip_address}:3002\n')
-        await writer.drain()
+            # Send the exact echo command
+            echo_command = f'echo "{command}" |nc {address}:3002\r\n'
+            writer.write(echo_command)
+            await writer.drain()
 
-        #cmd = f'echo "{command}" | nc {ip_address}:3002'
-        #result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+            response = await reader.read(1024)
+            writer.close()
 
-        # Return both stdout and stderr
-        #return result.stdout, result.stderr
+            return response.strip()
+
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        response = loop.run_until_complete(send())
+        loop.close()
+
+        print(f"Sent command: {command}")
+        print(f"Response: {response}")
+
+        return response, None
+
     except Exception as e:
-        return None, str(e)
+        error_msg = f"Error sending command: {e}"
+        print(error_msg)
+        return None, error_msg
+
