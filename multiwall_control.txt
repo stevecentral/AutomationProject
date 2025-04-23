@@ -1,0 +1,203 @@
+/html[1] {'x': 0, 'y': 0} html  None
+/html[1]/head[1] {'x': 0, 'y': 0} head  None
+/html[1]/head[1]/meta[1] {'x': 0, 'y': 0} meta  
+/html[1]/head[1]/title[1] {'x': 0, 'y': 0} title  None
+/html[1]/head[1]/base[1] {'x': 0, 'y': 0} base  None
+//meta[@name='viewport'] {'x': 0, 'y': 0} meta  viewport
+/html[1]/head[1]/link[1] {'x': 0, 'y': 0} link  None
+/html[1]/head[1]/link[2] {'x': 0, 'y': 0} link  None
+/html[1]/head[1]/style[1] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/link[3] {'x': 0, 'y': 0} link  None
+/html[1]/head[1]/noscript[1] {'x': 0, 'y': 0} noscript  None
+/html[1]/head[1]/style[2] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[3] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[4] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[5] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[6] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[7] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[8] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[9] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[10] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[11] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[12] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[13] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[14] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[15] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[16] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[17] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[18] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[19] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[20] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[21] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[22] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[23] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[24] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[25] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[26] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[27] {'x': 0, 'y': 0} style  None
+/html[1]/body[1] {'x': 0, 'y': 0} body  None
+/html[1]/body[1]/app-root[1] {'x': 0, 'y': 0} app-root  None
+/html[1]/body[1]/app-root[1]/router-outlet[1] {'x': 0, 'y': 0} router-outlet  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1] {'x': 0, 'y': 0} app-page-layout  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1] {'x': 0, 'y': 0} header  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1] {'x': 0, 'y': 0} app-header  None
+//div[@id='header-details'] {'x': 0, 'y': 0} div header-details None
+//div[@id='host-name'] {'x': 16, 'y': 0} div host-name None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[1]/host-name-component[1] {'x': 16, 'y': 14} host-name-component  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[1]/host-name-component[1]/span[1] {'x': 16, 'y': 16} span  None
+//div[@id='toolbar-container'] {'x': 256, 'y': 0} div toolbar-container None
+//div[@id='identify-tiles'] {'x': 256, 'y': 0} div identify-tiles None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/identify-tiles-component[1] {'x': 256, 'y': 0} identify-tiles-component  None
+//div[@id='identifytiles-menu'] {'x': 256, 'y': 8} div identifytiles-menu None
+//div[@id='identifytiles-button'] {'x': 256, 'y': 8} div identifytiles-button None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/identify-tiles-component[1]/div[1]/div[1]/mat-button[1] {'x': 256, 'y': 11} mat-button  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/identify-tiles-component[1]/div[1]/div[1]/mat-button[1]/div[1] {'x': 256, 'y': 11} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/identify-tiles-component[1]/div[1]/div[1]/mat-button[1]/div[1]/img[1] {'x': 263, 'y': 13} img  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/identify-tiles-component[1]/div[1]/mat-menu[1] {'x': 0, 'y': 0} mat-menu  None
+//div[@id='identify-octrollers'] {'x': 311, 'y': 0} div identify-octrollers None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-octrollers-component[1] {'x': 311, 'y': 0} identify-octrollers-component  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-octrollers-component[1]/toggle-button-component[1] {'x': 311, 'y': 7} toggle-button-component  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-octrollers-component[1]/toggle-button-component[1]/div[1] {'x': 311, 'y': 7} div  None
+//mat-button-toggle[@id='mat-button-toggle-0'] {'x': 315, 'y': 7} mat-button-toggle mat-button-toggle-0 None
+//button[@id='mat-button-toggle-0-button'] {'x': 315, 'y': 7} button mat-button-toggle-0-button 
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-octrollers-component[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/button[1]/span[1] {'x': 316, 'y': 8} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-octrollers-component[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/button[1]/span[1]/img[1] {'x': 320, 'y': 14} img  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-octrollers-component[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/span[1] {'x': 315, 'y': 7} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-octrollers-component[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/span[2] {'x': 349, 'y': 7} span  None
+//div[@id='test-patterns'] {'x': 353, 'y': 0} div test-patterns None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/testpattern-menu-component[1] {'x': 353, 'y': 0} testpattern-menu-component  None
+//div[@id='testpattern-menu'] {'x': 353, 'y': 7} div testpattern-menu None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/testpattern-menu-component[1]/div[1]/toggle-button-component[1] {'x': 353, 'y': 7} toggle-button-component  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/testpattern-menu-component[1]/div[1]/toggle-button-component[1]/div[1] {'x': 353, 'y': 7} div  None
+//mat-button-toggle[@id='mat-button-toggle-1'] {'x': 357, 'y': 7} mat-button-toggle mat-button-toggle-1 None
+//button[@id='mat-button-toggle-1-button'] {'x': 357, 'y': 7} button mat-button-toggle-1-button 
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/testpattern-menu-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/button[1]/span[1] {'x': 358, 'y': 8} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/testpattern-menu-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/button[1]/span[1]/img[1] {'x': 360, 'y': 10} img  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/testpattern-menu-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/span[1] {'x': 357, 'y': 7} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/testpattern-menu-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/span[2] {'x': 391, 'y': 7} span  None
+//div[@id='datetime-logout-power-container'] {'x': 534, 'y': 0} div datetime-logout-power-container None
+//div[@id='date-time'] {'x': 554, 'y': 0} div date-time None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[1]/system-date-time-component[1] {'x': 554, 'y': 14} system-date-time-component  None
+//div[@id='system-date-time'] {'x': 554, 'y': 14} div system-date-time None
+//div[@id='system-time'] {'x': 574, 'y': 14} div system-time None
+//div[@id='system-date'] {'x': 646, 'y': 14} div system-date None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[2] {'x': 738, 'y': 0} div  None
+//img[@id='network-img'] {'x': 738, 'y': 13} img network-img 
+//img[@id='network-err-img'] {'x': 0, 'y': 0} img network-err-img 
+//div[@id='logout'] {'x': 782, 'y': 0} div logout None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[3]/a[1] {'x': 792, 'y': 14} a  
+//div[@id='power-control'] {'x': 850, 'y': 0} div power-control None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[4]/power-wall-component[1] {'x': 850, 'y': 0} power-wall-component  None
+//div[@id='power-wall-menu'] {'x': 850, 'y': 0} div power-wall-menu None
+//div[@id='power-menu-button'] {'x': 850, 'y': 0} div power-menu-button None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[4]/power-wall-component[1]/div[1]/div[1]/mat-button[1] {'x': 850, 'y': 11} mat-button  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[4]/power-wall-component[1]/div[1]/div[1]/mat-button[1]/div[1] {'x': 850, 'y': 11} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[4]/power-wall-component[1]/div[1]/div[1]/mat-button[1]/div[1]/img[1] {'x': 857, 'y': 13} img  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[4]/power-wall-component[1]/div[1]/mat-menu[1] {'x': 0, 'y': 0} mat-menu  None
+//div[@id='header-status-bar'] {'x': 905, 'y': 0} div header-status-bar None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[5]/a[1] {'x': 905, 'y': 0} a  
+//div[@id='page-container'] {'x': 0, 'y': 50} div page-container None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/api-monitor-progress-bar[1] {'x': 82, 'y': 50} api-monitor-progress-bar  None
+//aside[@id='primary-nav'] {'x': 0, 'y': 52} aside primary-nav None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1] {'x': 0, 'y': 52} app-primary-nav  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1] {'x': 0, 'y': 52} perfect-scrollbar  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1] {'x': 0, 'y': 52} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1] {'x': 0, 'y': 68} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1] {'x': 0, 'y': 68} nav  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[1] {'x': 8, 'y': 68} a  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[1]/mat-icon[1] {'x': 29, 'y': 76} mat-icon  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[1]/mat-icon[1]/svg[1] {'x': 29, 'y': 76} svg  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[1]/mat-icon[1]/svg[1]/path[1] {'x': 31, 'y': 79} path  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[1]/span[1] {'x': 16, 'y': 100} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[2] {'x': 8, 'y': 142} a  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[2]/mat-icon[1] {'x': 29, 'y': 150} mat-icon  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[2]/mat-icon[1]/svg[1] {'x': 29, 'y': 150} svg  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[2]/mat-icon[1]/svg[1]/path[1] {'x': 30, 'y': 153} path  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[2]/span[1] {'x': 16, 'y': 174} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3] {'x': 8, 'y': 234} a  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3]/mat-icon[1] {'x': 29, 'y': 242} mat-icon  None
+//svg[@id='Layer_1'] {'x': 29, 'y': 242} svg Layer_1 None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3]/mat-icon[1]/svg[1]/g[1] {'x': 29, 'y': 243} g  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3]/mat-icon[1]/svg[1]/g[1]/polygon[1] {'x': 32, 'y': 243} polygon  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3]/mat-icon[1]/svg[1]/g[1]/path[1] {'x': 29, 'y': 249} path  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3]/span[1] {'x': 16, 'y': 266} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4] {'x': 8, 'y': 326} a  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1] {'x': 29, 'y': 334} mat-icon  None
+//svg[@id='Layer_1'] {'x': 29, 'y': 334} svg Layer_1 None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1] {'x': 31, 'y': 336} g  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/path[1] {'x': 31, 'y': 336} path  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[1] {'x': 40, 'y': 348} rect  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[2] {'x': 40, 'y': 351} rect  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[3] {'x': 40, 'y': 342} rect  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[4] {'x': 40, 'y': 339} rect  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/polygon[1] {'x': 40, 'y': 345} polygon  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[5] {'x': 34, 'y': 345} rect  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[6] {'x': 37, 'y': 345} rect  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[7] {'x': 43, 'y': 345} rect  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[8] {'x': 46, 'y': 345} rect  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/span[1] {'x': 16, 'y': 358} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[5] {'x': 8, 'y': 418} a  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[5]/mat-icon[1] {'x': 29, 'y': 426} mat-icon  None
+//svg[@id='Layer_1'] {'x': 29, 'y': 426} svg Layer_1 None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[5]/mat-icon[1]/svg[1]/path[1] {'x': 32, 'y': 429} path  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[5]/span[1] {'x': 16, 'y': 450} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[6] {'x': 8, 'y': 510} a  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[6]/mat-icon[1] {'x': 29, 'y': 518} mat-icon  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[6]/span[1] {'x': 16, 'y': 542} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7] {'x': 8, 'y': 602} a  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7]/mat-icon[1] {'x': 29, 'y': 610} mat-icon  None
+//svg[@id='Layer_1'] {'x': 29, 'y': 610} svg Layer_1 None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7]/mat-icon[1]/svg[1]/g[1] {'x': 29, 'y': 610} g  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7]/mat-icon[1]/svg[1]/g[1]/path[1] {'x': 29, 'y': 610} path  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7]/mat-icon[1]/svg[1]/g[1]/path[2] {'x': 32, 'y': 615} path  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7]/span[1] {'x': 26, 'y': 634} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[8] {'x': 8, 'y': 676} a  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[8]/mat-icon[1] {'x': 29, 'y': 684} mat-icon  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[8]/span[1] {'x': 16, 'y': 708} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[2] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[2]/div[1] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[3] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[3]/div[1] {'x': 0, 'y': 0} div  None
+//div[@id='main-content'] {'x': 84, 'y': 52} div main-content None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/router-outlet[1] {'x': 84, 'y': 52} router-outlet  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1] {'x': 84, 'y': 52} app-scene-management  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/router-outlet[1] {'x': 84, 'y': 52} router-outlet  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1] {'x': 84, 'y': 52} app-scene  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1] {'x': 84, 'y': 52} perfect-scrollbar  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1] {'x': 84, 'y': 52} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1] {'x': 84, 'y': 52} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1] {'x': 84, 'y': 52} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[1] {'x': 84, 'y': 52} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2] {'x': 232, 'y': 52} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[1] {'x': 232, 'y': 52} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1] {'x': 0, 'y': 0} input  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2] {'x': 232, 'y': 152} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1] {'x': 262, 'y': 182} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1] {'x': 260, 'y': 184} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/span[1] {'x': 297, 'y': 197} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button-component[1] {'x': 654, 'y': 182} button-component  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button-component[1]/button[1] {'x': 654, 'y': 182} button  
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button-component[1]/button[1]/span[1] {'x': 690, 'y': 183} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button-component[1]/button[1]/span[1]/div[1] {'x': 690, 'y': 183} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button-component[1]/button[1]/span[1]/div[1]/span[1] {'x': 685, 'y': 183} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button-component[1]/button[1]/span[1]/div[1]/span[2] {'x': 690, 'y': 188} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button-component[1]/button[1]/span[2] {'x': 655, 'y': 183} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button-component[1]/button[1]/span[3] {'x': 655, 'y': 183} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2] {'x': 262, 'y': 232} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/span[1] {'x': 262, 'y': 233} span  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[1]/div[1]/div[3] {'x': 779, 'y': 52} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[2] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[2]/div[1] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[3] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/app-scene-management[1]/app-scene[1]/perfect-scrollbar[1]/div[1]/div[3]/div[1] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/app-page-layout[1]/div[1]/div[1]/test-pattern-generator[1] {'x': 927, 'y': 52} test-pattern-generator  None
+/html[1]/body[1]/script[1] {'x': 0, 'y': 0} script  None
+/html[1]/body[1]/script[2] {'x': 0, 'y': 0} script  None
+/html[1]/body[1]/script[3] {'x': 0, 'y': 0} script  None
+//div[@id='cdk-live-announcer-0'] {'x': -1, 'y': -1} div cdk-live-announcer-0 None
+/html[1]/body[1]/div[2] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/div[3] {'x': -1, 'y': -1} div  None
+//div[@id='cdk-describedby-message-oax-1-4'] {'x': -1, 'y': -1} div cdk-describedby-message-oax-1-4 None
+//div[@id='cdk-describedby-message-oax-1-5'] {'x': -1, 'y': 20} div cdk-describedby-message-oax-1-5 None
+//div[@id='cdk-describedby-message-oax-1-7'] {'x': -1, 'y': 41} div cdk-describedby-message-oax-1-7 None
+//div[@id='cdk-describedby-message-oax-1-8'] {'x': -1, 'y': 62} div cdk-describedby-message-oax-1-8 None

@@ -1,0 +1,404 @@
+/html[1] {'x': 0, 'y': 0} html  None
+/html[1]/head[1] {'x': 0, 'y': 0} head  None
+/html[1]/head[1]/meta[1] {'x': 0, 'y': 0} meta  
+/html[1]/head[1]/title[1] {'x': 0, 'y': 0} title  None
+/html[1]/head[1]/base[1] {'x': 0, 'y': 0} base  None
+//meta[@name='viewport'] {'x': 0, 'y': 0} meta  viewport
+/html[1]/head[1]/link[1] {'x': 0, 'y': 0} link  None
+/html[1]/head[1]/link[2] {'x': 0, 'y': 0} link  None
+/html[1]/head[1]/link[3] {'x': 0, 'y': 0} link  None
+/html[1]/head[1]/style[1] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[2] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[3] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[4] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[5] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[6] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[7] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[8] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[9] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[10] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[11] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[12] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[13] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[14] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[15] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[16] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[17] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[18] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[19] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[20] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[21] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[22] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[23] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[24] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[25] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[26] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[27] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[28] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[29] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[30] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[31] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[32] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[33] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[34] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[35] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[36] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[37] {'x': 0, 'y': 0} style  None
+/html[1]/head[1]/style[38] {'x': 0, 'y': 0} style  None
+/html[1]/body[1] {'x': 0, 'y': 0} body  None
+/html[1]/body[1]/app-root[1] {'x': 0, 'y': 0} app-root  None
+/html[1]/body[1]/app-root[1]/router-outlet[1] {'x': 0, 'y': 0} router-outlet  None
+/html[1]/body[1]/app-root[1]/device-layout[1] {'x': 0, 'y': 0} device-layout  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1] {'x': 0, 'y': 0} header  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1] {'x': 0, 'y': 0} app-header  None
+//div[@id='header-details'] {'x': 0, 'y': 0} div header-details None
+//div[@id='host-name'] {'x': 16, 'y': 0} div host-name None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[1]/host-name-component[1] {'x': 16, 'y': 14} host-name-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[1]/host-name-component[1]/span[1] {'x': 16, 'y': 16} span  None
+//div[@id='toolbar-container'] {'x': 165, 'y': 0} div toolbar-container None
+//div[@id='viewport-control-group'] {'x': 165, 'y': 0} div viewport-control-group None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1] {'x': 165, 'y': 0} viewport-toolbar-component  None
+//div[@id='viewport-toolbar-wrapper'] {'x': 165, 'y': 0} div viewport-toolbar-wrapper None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[1] {'x': 165, 'y': 7} toggle-button-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[1]/div[1] {'x': 165, 'y': 7} div  None
+//mat-button-toggle[@id='mat-button-toggle-2'] {'x': 169, 'y': 7} mat-button-toggle mat-button-toggle-2 None
+//button[@id='mat-button-toggle-2-button'] {'x': 169, 'y': 7} button mat-button-toggle-2-button 
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/button[1]/span[1] {'x': 170, 'y': 8} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/button[1]/span[1]/img[1] {'x': 174, 'y': 14} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/span[1] {'x': 169, 'y': 7} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/span[2] {'x': 203, 'y': 7} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[2] {'x': 207, 'y': 7} toggle-button-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[2]/div[1] {'x': 207, 'y': 7} div  None
+//mat-button-toggle[@id='mat-button-toggle-3'] {'x': 211, 'y': 7} mat-button-toggle mat-button-toggle-3 None
+//button[@id='mat-button-toggle-3-button'] {'x': 211, 'y': 7} button mat-button-toggle-3-button 
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[2]/div[1]/mat-button-toggle[1]/button[1]/span[1] {'x': 212, 'y': 8} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[2]/div[1]/mat-button-toggle[1]/button[1]/span[1]/img[1] {'x': 216, 'y': 14} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[2]/div[1]/mat-button-toggle[1]/span[1] {'x': 211, 'y': 7} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/toggle-button-component[2]/div[1]/mat-button-toggle[1]/span[2] {'x': 245, 'y': 7} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/app-zoom-options-menu[1] {'x': 249, 'y': 8} app-zoom-options-menu  None
+//div[@id='zoomoptions-menu'] {'x': 249, 'y': 8} div zoomoptions-menu None
+//div[@id='zoom-options-button'] {'x': 249, 'y': 8} div zoom-options-button None
+//mat-button[@id='button-zoom'] {'x': 249, 'y': 6} mat-button button-zoom None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/app-zoom-options-menu[1]/div[1]/div[1]/mat-button[1]/div[1] {'x': 249, 'y': 6} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/app-zoom-options-menu[1]/div[1]/div[1]/mat-button[1]/div[1]/div[1] {'x': 249, 'y': 8} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/app-zoom-options-menu[1]/div[1]/div[1]/mat-button[1]/div[1]/div[1]/img[1] {'x': 256, 'y': 14} img  
+//input[@id='button-zoom-input'] {'x': 283, 'y': 8} input button-zoom-input 
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/viewport-toolbar-component[1]/div[1]/app-zoom-options-menu[1]/div[1]/mat-menu[1] {'x': 0, 'y': 0} mat-menu  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[1]/div[1] {'x': 361, 'y': 2} div  None
+//div[@id='identify-tiles'] {'x': 370, 'y': 0} div identify-tiles None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-tiles-component[1] {'x': 370, 'y': 0} identify-tiles-component  None
+//div[@id='identifytiles-menu'] {'x': 370, 'y': 8} div identifytiles-menu None
+//div[@id='identifytiles-button'] {'x': 370, 'y': 8} div identifytiles-button None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-tiles-component[1]/div[1]/div[1]/mat-button[1] {'x': 370, 'y': 11} mat-button  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-tiles-component[1]/div[1]/div[1]/mat-button[1]/div[1] {'x': 370, 'y': 11} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-tiles-component[1]/div[1]/div[1]/mat-button[1]/div[1]/img[1] {'x': 377, 'y': 13} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[2]/identify-tiles-component[1]/div[1]/mat-menu[1] {'x': 0, 'y': 0} mat-menu  None
+//div[@id='identify-octrollers'] {'x': 425, 'y': 0} div identify-octrollers None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/identify-octrollers-component[1] {'x': 425, 'y': 0} identify-octrollers-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/identify-octrollers-component[1]/toggle-button-component[1] {'x': 425, 'y': 7} toggle-button-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/identify-octrollers-component[1]/toggle-button-component[1]/div[1] {'x': 425, 'y': 7} div  None
+//mat-button-toggle[@id='mat-button-toggle-4'] {'x': 429, 'y': 7} mat-button-toggle mat-button-toggle-4 None
+//button[@id='mat-button-toggle-4-button'] {'x': 429, 'y': 7} button mat-button-toggle-4-button 
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/identify-octrollers-component[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/button[1]/span[1] {'x': 430, 'y': 8} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/identify-octrollers-component[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/button[1]/span[1]/img[1] {'x': 434, 'y': 14} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/identify-octrollers-component[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/span[1] {'x': 429, 'y': 7} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[3]/identify-octrollers-component[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/span[2] {'x': 463, 'y': 7} span  None
+//div[@id='test-patterns'] {'x': 467, 'y': 0} div test-patterns None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[4]/testpattern-menu-component[1] {'x': 467, 'y': 0} testpattern-menu-component  None
+//div[@id='testpattern-menu'] {'x': 467, 'y': 7} div testpattern-menu None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[4]/testpattern-menu-component[1]/div[1]/toggle-button-component[1] {'x': 467, 'y': 7} toggle-button-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[4]/testpattern-menu-component[1]/div[1]/toggle-button-component[1]/div[1] {'x': 467, 'y': 7} div  None
+//mat-button-toggle[@id='mat-button-toggle-5'] {'x': 471, 'y': 7} mat-button-toggle mat-button-toggle-5 None
+//button[@id='mat-button-toggle-5-button'] {'x': 471, 'y': 7} button mat-button-toggle-5-button 
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[4]/testpattern-menu-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/button[1]/span[1] {'x': 472, 'y': 8} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[4]/testpattern-menu-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/button[1]/span[1]/img[1] {'x': 474, 'y': 10} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[4]/testpattern-menu-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/span[1] {'x': 471, 'y': 7} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[2]/div[4]/testpattern-menu-component[1]/div[1]/toggle-button-component[1]/div[1]/mat-button-toggle[1]/span[2] {'x': 505, 'y': 7} span  None
+//div[@id='datetime-logout-power-container'] {'x': 534, 'y': 0} div datetime-logout-power-container None
+//div[@id='date-time'] {'x': 554, 'y': 0} div date-time None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[1]/system-date-time-component[1] {'x': 554, 'y': 14} system-date-time-component  None
+//div[@id='system-date-time'] {'x': 554, 'y': 14} div system-date-time None
+//div[@id='system-time'] {'x': 574, 'y': 14} div system-time None
+//div[@id='system-date'] {'x': 646, 'y': 14} div system-date None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[2] {'x': 738, 'y': 0} div  None
+//img[@id='network-img'] {'x': 738, 'y': 13} img network-img 
+//img[@id='network-err-img'] {'x': 0, 'y': 0} img network-err-img 
+//div[@id='logout'] {'x': 782, 'y': 0} div logout None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[3]/a[1] {'x': 792, 'y': 14} a  
+//div[@id='power-control'] {'x': 850, 'y': 0} div power-control None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[4]/power-wall-component[1] {'x': 850, 'y': 0} power-wall-component  None
+//div[@id='power-wall-menu'] {'x': 850, 'y': 0} div power-wall-menu None
+//div[@id='power-menu-button'] {'x': 850, 'y': 0} div power-menu-button None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[4]/power-wall-component[1]/div[1]/div[1]/mat-button[1] {'x': 850, 'y': 11} mat-button  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[4]/power-wall-component[1]/div[1]/div[1]/mat-button[1]/div[1] {'x': 850, 'y': 11} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[4]/power-wall-component[1]/div[1]/div[1]/mat-button[1]/div[1]/img[1] {'x': 857, 'y': 13} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[4]/power-wall-component[1]/div[1]/mat-menu[1] {'x': 0, 'y': 0} mat-menu  None
+//div[@id='header-status-bar'] {'x': 905, 'y': 0} div header-status-bar None
+/html[1]/body[1]/app-root[1]/device-layout[1]/header[1]/app-header[1]/div[1]/div[3]/div[5]/a[1] {'x': 905, 'y': 0} a  
+//div[@id='page-container'] {'x': 0, 'y': 50} div page-container None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/api-monitor-progress-bar[1] {'x': 82, 'y': 50} api-monitor-progress-bar  None
+//aside[@id='primary-nav'] {'x': 0, 'y': 52} aside primary-nav None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1] {'x': 0, 'y': 52} app-primary-nav  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1] {'x': 0, 'y': 52} perfect-scrollbar  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1] {'x': 0, 'y': 52} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1] {'x': 0, 'y': 68} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1] {'x': 0, 'y': 68} nav  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[1] {'x': 8, 'y': 68} a  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[1]/mat-icon[1] {'x': 29, 'y': 76} mat-icon  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[1]/mat-icon[1]/svg[1] {'x': 29, 'y': 76} svg  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[1]/mat-icon[1]/svg[1]/path[1] {'x': 31, 'y': 79} path  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[1]/span[1] {'x': 16, 'y': 100} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[2] {'x': 8, 'y': 142} a  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[2]/mat-icon[1] {'x': 29, 'y': 150} mat-icon  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[2]/mat-icon[1]/svg[1] {'x': 29, 'y': 150} svg  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[2]/mat-icon[1]/svg[1]/path[1] {'x': 30, 'y': 153} path  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[2]/span[1] {'x': 16, 'y': 174} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3] {'x': 8, 'y': 234} a  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3]/mat-icon[1] {'x': 29, 'y': 242} mat-icon  None
+//svg[@id='Layer_1'] {'x': 29, 'y': 242} svg Layer_1 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3]/mat-icon[1]/svg[1]/g[1] {'x': 29, 'y': 243} g  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3]/mat-icon[1]/svg[1]/g[1]/polygon[1] {'x': 32, 'y': 243} polygon  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3]/mat-icon[1]/svg[1]/g[1]/path[1] {'x': 29, 'y': 249} path  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[3]/span[1] {'x': 16, 'y': 266} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4] {'x': 8, 'y': 326} a  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1] {'x': 29, 'y': 334} mat-icon  None
+//svg[@id='Layer_1'] {'x': 29, 'y': 334} svg Layer_1 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1] {'x': 31, 'y': 336} g  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/path[1] {'x': 31, 'y': 336} path  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[1] {'x': 40, 'y': 348} rect  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[2] {'x': 40, 'y': 351} rect  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[3] {'x': 40, 'y': 342} rect  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[4] {'x': 40, 'y': 339} rect  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/polygon[1] {'x': 40, 'y': 345} polygon  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[5] {'x': 34, 'y': 345} rect  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[6] {'x': 37, 'y': 345} rect  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[7] {'x': 43, 'y': 345} rect  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/mat-icon[1]/svg[1]/g[1]/rect[8] {'x': 46, 'y': 345} rect  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[4]/span[1] {'x': 16, 'y': 358} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[5] {'x': 8, 'y': 418} a  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[5]/mat-icon[1] {'x': 29, 'y': 426} mat-icon  None
+//svg[@id='Layer_1'] {'x': 29, 'y': 426} svg Layer_1 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[5]/mat-icon[1]/svg[1]/path[1] {'x': 32, 'y': 429} path  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[5]/span[1] {'x': 16, 'y': 450} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[6] {'x': 8, 'y': 510} a  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[6]/mat-icon[1] {'x': 29, 'y': 518} mat-icon  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[6]/span[1] {'x': 16, 'y': 542} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7] {'x': 8, 'y': 602} a  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7]/mat-icon[1] {'x': 29, 'y': 610} mat-icon  None
+//svg[@id='Layer_1'] {'x': 29, 'y': 610} svg Layer_1 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7]/mat-icon[1]/svg[1]/g[1] {'x': 29, 'y': 610} g  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7]/mat-icon[1]/svg[1]/g[1]/path[1] {'x': 29, 'y': 610} path  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7]/mat-icon[1]/svg[1]/g[1]/path[2] {'x': 32, 'y': 615} path  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[7]/span[1] {'x': 26, 'y': 634} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[8] {'x': 8, 'y': 676} a  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[8]/mat-icon[1] {'x': 29, 'y': 684} mat-icon  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[1]/nav[1]/a[8]/span[1] {'x': 16, 'y': 708} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[2] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[2]/div[1] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[3] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[1]/app-primary-nav[1]/perfect-scrollbar[1]/div[1]/div[3]/div[1] {'x': 0, 'y': 0} div  None
+//aside[@id='device-tree'] {'x': 84, 'y': 52} aside device-tree None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1] {'x': 84, 'y': 52} app-device-tree  None
+//div[@id='device-tree-container'] {'x': 84, 'y': 52} div device-tree-container None
+//div[@id='device-tree-title'] {'x': 84, 'y': 52} div device-tree-title None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/div[1]/span[1] {'x': 104, 'y': 63} span  None
+//div[@id='device-tree-search'] {'x': 104, 'y': 83} div device-tree-search None
+//mat-icon[@id='search_icon'] {'x': 106, 'y': 93} mat-icon search_icon None
+//input[@id='deviceTreeFilter'] {'x': 104, 'y': 93} input deviceTreeFilter 
+//perfect-scrollbar[@id='device-tree-content'] {'x': 84, 'y': 152} perfect-scrollbar device-tree-content None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1] {'x': 84, 'y': 152} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1] {'x': 84, 'y': 152} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1] {'x': 84, 'y': 152} tree-root  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1] {'x': 84, 'y': 152} tree-viewport  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1] {'x': 84, 'y': 152} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1] {'x': 84, 'y': 152} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1] {'x': 92, 'y': 160} tree-node-collection  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1] {'x': 92, 'y': 160} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1] {'x': 92, 'y': 160} tree-node  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1] {'x': 92, 'y': 160} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-drop-slot[1] {'x': 92, 'y': 160} tree-node-drop-slot  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-drop-slot[1]/div[1] {'x': 92, 'y': 160} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-wrapper[1] {'x': 92, 'y': 162} tree-node-wrapper  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-wrapper[1]/div[1] {'x': 92, 'y': 162} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1] {'x': 96, 'y': 162} tree-node-expander  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1]/span[1] {'x': 96, 'y': 163} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-wrapper[1]/div[1]/div[1] {'x': 116, 'y': 162} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1] {'x': 121, 'y': 164} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/img[1] {'x': 121, 'y': 164} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-children[1] {'x': 92, 'y': 190} tree-node-children  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-drop-slot[2] {'x': 92, 'y': 190} tree-node-drop-slot  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[1]/div[1]/tree-node-drop-slot[2]/div[1] {'x': 92, 'y': 190} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2] {'x': 92, 'y': 192} tree-node  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1] {'x': 92, 'y': 192} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-wrapper[1] {'x': 92, 'y': 192} tree-node-wrapper  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-wrapper[1]/div[1] {'x': 92, 'y': 192} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1] {'x': 96, 'y': 192} tree-node-expander  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1]/span[1] {'x': 96, 'y': 191} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1]/span[1]/span[1] {'x': 97, 'y': 197} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-wrapper[1]/div[1]/div[1] {'x': 116, 'y': 192} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1] {'x': 121, 'y': 194} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1] {'x': 121, 'y': 194} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1]/img[1] {'x': 121, 'y': 195} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1]/span[1] {'x': 211, 'y': 195} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-children[1] {'x': 92, 'y': 221} tree-node-children  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-drop-slot[1] {'x': 92, 'y': 221} tree-node-drop-slot  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[2]/div[1]/tree-node-drop-slot[1]/div[1] {'x': 92, 'y': 221} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3] {'x': 92, 'y': 223} tree-node  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1] {'x': 92, 'y': 223} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-wrapper[1] {'x': 92, 'y': 223} tree-node-wrapper  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-wrapper[1]/div[1] {'x': 92, 'y': 223} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1] {'x': 96, 'y': 223} tree-node-expander  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1]/span[1] {'x': 96, 'y': 222} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1]/span[1]/span[1] {'x': 97, 'y': 228} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-wrapper[1]/div[1]/div[1] {'x': 116, 'y': 223} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1] {'x': 121, 'y': 225} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1] {'x': 121, 'y': 225} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1]/img[1] {'x': 121, 'y': 225} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1]/span[1] {'x': 211, 'y': 226} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-children[1] {'x': 92, 'y': 251} tree-node-children  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-drop-slot[1] {'x': 92, 'y': 251} tree-node-drop-slot  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[3]/div[1]/tree-node-drop-slot[1]/div[1] {'x': 92, 'y': 251} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4] {'x': 92, 'y': 253} tree-node  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1] {'x': 92, 'y': 253} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-wrapper[1] {'x': 92, 'y': 253} tree-node-wrapper  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-wrapper[1]/div[1] {'x': 92, 'y': 253} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1] {'x': 96, 'y': 253} tree-node-expander  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1]/span[1] {'x': 96, 'y': 252} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1]/span[1]/span[1] {'x': 97, 'y': 258} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-wrapper[1]/div[1]/div[1] {'x': 116, 'y': 253} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1] {'x': 121, 'y': 255} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1] {'x': 121, 'y': 255} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1]/img[1] {'x': 121, 'y': 255} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1]/span[1] {'x': 211, 'y': 256} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-children[1] {'x': 92, 'y': 281} tree-node-children  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-drop-slot[1] {'x': 92, 'y': 281} tree-node-drop-slot  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[4]/div[1]/tree-node-drop-slot[1]/div[1] {'x': 92, 'y': 281} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5] {'x': 92, 'y': 283} tree-node  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1] {'x': 92, 'y': 283} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-wrapper[1] {'x': 92, 'y': 283} tree-node-wrapper  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-wrapper[1]/div[1] {'x': 92, 'y': 283} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1] {'x': 96, 'y': 283} tree-node-expander  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1]/span[1] {'x': 96, 'y': 282} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-wrapper[1]/div[1]/tree-node-expander[1]/span[1]/span[1] {'x': 97, 'y': 288} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-wrapper[1]/div[1]/div[1] {'x': 116, 'y': 283} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1] {'x': 121, 'y': 285} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1] {'x': 121, 'y': 285} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1]/img[1] {'x': 121, 'y': 285} img  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-wrapper[1]/div[1]/div[1]/div[1]/div[1]/span[1] {'x': 211, 'y': 286} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-children[1] {'x': 92, 'y': 311} tree-node-children  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-drop-slot[1] {'x': 92, 'y': 311} tree-node-drop-slot  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[1]/tree-root[1]/tree-viewport[1]/div[1]/div[1]/tree-node-collection[1]/div[1]/tree-node[5]/div[1]/tree-node-drop-slot[1]/div[1] {'x': 92, 'y': 311} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[2] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[2]/div[1] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[3] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[2]/app-device-tree[1]/div[1]/perfect-scrollbar[1]/div[1]/div[3]/div[1] {'x': 0, 'y': 0} div  None
+//div[@id='main-content'] {'x': 342, 'y': 52} div main-content None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/div[1]/app-viewport[1] {'x': 342, 'y': 52} app-viewport  None
+//div[@id='canvas-stage-wrapper'] {'x': 342, 'y': 52} div canvas-stage-wrapper None
+//div[@id='ruler-stage'] {'x': 342, 'y': 52} div ruler-stage None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/div[1]/app-viewport[1]/div[1]/div[1]/div[1] {'x': 342, 'y': 52} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/div[1]/app-viewport[1]/div[1]/div[1]/div[1]/canvas[1] {'x': 342, 'y': 52} canvas  None
+//div[@id='canvas-stage'] {'x': 392, 'y': 102} div canvas-stage None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/div[1]/app-viewport[1]/div[1]/div[2]/div[1] {'x': 392, 'y': 102} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/div[1]/app-viewport[1]/div[1]/div[2]/div[1]/canvas[1] {'x': 392, 'y': 102} canvas  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/div[1]/test-pattern-generator[1] {'x': 580, 'y': 52} test-pattern-generator  None
+//aside[@id='system-controls'] {'x': 582, 'y': 52} aside system-controls None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/router-outlet[1] {'x': 582, 'y': 52} router-outlet  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1] {'x': 582, 'y': 52} seam-correction-settings  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1] {'x': 582, 'y': 52} properties-component  None
+//perfect-scrollbar[@id='properties-container'] {'x': 582, 'y': 52} perfect-scrollbar properties-container None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1] {'x': 584, 'y': 54} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1] {'x': 584, 'y': 54} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1] {'x': 584, 'y': 54} mat-tab-group  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1] {'x': 584, 'y': 54} mat-tab-header  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1]/button[1] {'x': 0, 'y': 0} button  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1]/button[1]/div[1] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1]/div[1] {'x': 584, 'y': 54} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1]/div[1]/div[1] {'x': 584, 'y': 54} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1]/div[1]/div[1]/div[1] {'x': 584, 'y': 54} div  None
+//div[@id='mat-tab-label-0-0'] {'x': 584, 'y': 54} div mat-tab-label-0-0 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1]/div[1]/div[1]/div[1]/div[1]/div[1] {'x': 620, 'y': 68} div  None
+//div[@id='mat-tab-label-0-1'] {'x': 744, 'y': 54} div mat-tab-label-0-1 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1]/div[1]/div[1]/div[1]/div[2]/div[1] {'x': 781, 'y': 68} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1]/div[1]/div[1]/mat-ink-bar[1] {'x': 584, 'y': 100} mat-ink-bar  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1]/button[2] {'x': 0, 'y': 0} button  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/mat-tab-header[1]/button[2]/div[1] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1] {'x': 584, 'y': 103} div  None
+//mat-tab-body[@id='mat-tab-content-0-0'] {'x': 584, 'y': 109} mat-tab-body mat-tab-content-0-0 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1] {'x': 584, 'y': 110} div  None
+//div[@id='wall-properties'] {'x': 584, 'y': 110} div wall-properties None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1] {'x': 586, 'y': 113} wall-properties-content  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1] {'x': 586, 'y': 113} seam-reset-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1] {'x': 586, 'y': 113} expansion-panel-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1]/mat-expansion-panel[1] {'x': 586, 'y': 113} mat-expansion-panel  None
+//mat-expansion-panel-header[@id='mat-expansion-panel-header-0'] {'x': 586, 'y': 113} mat-expansion-panel-header mat-expansion-panel-header-0 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/mat-expansion-panel-header[1]/span[1] {'x': 602, 'y': 124} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/mat-expansion-panel-header[1]/span[1]/mat-panel-title[1] {'x': 602, 'y': 124} mat-panel-title  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/mat-expansion-panel-header[1]/span[1]/mat-panel-title[1]/panel-title[1] {'x': 602, 'y': 124} panel-title  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/mat-expansion-panel-header[1]/span[2] {'x': 899, 'y': 124} span  None
+//div[@id='cdk-accordion-child-0'] {'x': 586, 'y': 153} div cdk-accordion-child-0 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1] {'x': 586, 'y': 153} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1] {'x': 602, 'y': 154} panel-content  None
+//div[@id='seam-reset-container'] {'x': 602, 'y': 154} div seam-reset-container None
+//div[@id='seam-reset-label'] {'x': 602, 'y': 194} div seam-reset-label None
+//button[@id='seam-reset-button'] {'x': 843, 'y': 189} button seam-reset-button 
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/button[1]/span[1] {'x': 860, 'y': 195} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/button[1]/span[2] {'x': 844, 'y': 190} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/seam-reset-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/button[1]/span[3] {'x': 844, 'y': 190} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1] {'x': 586, 'y': 272} edge-correction-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1] {'x': 586, 'y': 272} expansion-panel-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1] {'x': 586, 'y': 272} mat-expansion-panel  None
+//mat-expansion-panel-header[@id='mat-expansion-panel-header-1'] {'x': 586, 'y': 272} mat-expansion-panel-header mat-expansion-panel-header-1 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/mat-expansion-panel-header[1]/span[1] {'x': 602, 'y': 283} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/mat-expansion-panel-header[1]/span[1]/mat-panel-title[1] {'x': 602, 'y': 283} mat-panel-title  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/mat-expansion-panel-header[1]/span[1]/mat-panel-title[1]/panel-title[1] {'x': 602, 'y': 283} panel-title  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/mat-expansion-panel-header[1]/span[2] {'x': 899, 'y': 283} span  None
+//div[@id='cdk-accordion-child-1'] {'x': 586, 'y': 312} div cdk-accordion-child-1 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1] {'x': 586, 'y': 312} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1] {'x': 602, 'y': 313} panel-content  None
+//div[@id='seam-reset-container'] {'x': 602, 'y': 313} div seam-reset-container None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1] {'x': 602, 'y': 320} slider-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1] {'x': 602, 'y': 320} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[1] {'x': 602, 'y': 336} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[1]/span[1] {'x': 602, 'y': 338} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2] {'x': 602, 'y': 356} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1] {'x': 602, 'y': 356} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1] {'x': 602, 'y': 358} mat-slider  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1] {'x': 602, 'y': 380} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1]/div[1] {'x': 602, 'y': 380} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1]/div[1]/div[1] {'x': 685, 'y': 380} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1]/div[1]/div[2] {'x': 595, 'y': 380} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1]/div[2] {'x': 602, 'y': 380} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1]/div[2]/div[1] {'x': 602, 'y': 380} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1]/div[3] {'x': 488, 'y': 382} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1]/div[3]/div[1] {'x': 678, 'y': 382} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1]/div[3]/div[2] {'x': 673, 'y': 376} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1]/div[3]/div[3] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[1]/mat-slider[1]/div[1]/div[3]/div[3]/span[1] {'x': 0, 'y': 0} span  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[2] {'x': 806, 'y': 366} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[2]/number-input-component[1] {'x': 806, 'y': 366} number-input-component  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[2]/number-input-component[1]/div[1] {'x': 806, 'y': 366} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[2]/number-input-component[1]/div[1]/div[1] {'x': 806, 'y': 366} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[2]/number-input-component[1]/div[1]/div[1]/input[1] {'x': 806, 'y': 366} input  
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/wall-properties-content[1]/edge-correction-component[1]/expansion-panel-component[1]/mat-expansion-panel[1]/div[1]/div[1]/panel-content[1]/div[1]/slider-component[1]/div[1]/div[2]/div[2]/number-input-component[1]/div[1]/div[1]/span[1] {'x': 885, 'y': 366} span  None
+//mat-tab-body[@id='mat-tab-content-0-1'] {'x': 584, 'y': 103} mat-tab-body mat-tab-content-0-1 None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[2]/div[1] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[2] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[2]/div[1] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[3] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/app-root[1]/device-layout[1]/div[1]/aside[3]/seam-correction-settings[1]/properties-component[1]/perfect-scrollbar[1]/div[1]/div[3]/div[1] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/script[1] {'x': 0, 'y': 0} script  None
+/html[1]/body[1]/script[2] {'x': 0, 'y': 0} script  None
+/html[1]/body[1]/script[3] {'x': 0, 'y': 0} script  None
+/html[1]/body[1]/script[4] {'x': 0, 'y': 0} script  None
+//div[@id='cdk-live-announcer-0'] {'x': -1, 'y': -1} div cdk-live-announcer-0 None
+/html[1]/body[1]/div[2] {'x': 0, 'y': 0} div  None
+/html[1]/body[1]/div[3] {'x': -1, 'y': -1} div  None
+//div[@id='cdk-describedby-message-xjn-1-9'] {'x': -1, 'y': -1} div cdk-describedby-message-xjn-1-9 None
+//div[@id='cdk-describedby-message-xjn-1-10'] {'x': -1, 'y': 20} div cdk-describedby-message-xjn-1-10 None
+//div[@id='cdk-describedby-message-xjn-1-11'] {'x': -1, 'y': 41} div cdk-describedby-message-xjn-1-11 None
+//div[@id='cdk-describedby-message-xjn-1-12'] {'x': -1, 'y': 62} div cdk-describedby-message-xjn-1-12 None
+//div[@id='cdk-describedby-message-xjn-1-13'] {'x': -1, 'y': 83} div cdk-describedby-message-xjn-1-13 None
+//div[@id='cdk-describedby-message-xjn-1-14'] {'x': -1, 'y': 104} div cdk-describedby-message-xjn-1-14 None
+//div[@id='cdk-describedby-message-xjn-1-15'] {'x': -1, 'y': 125} div cdk-describedby-message-xjn-1-15 None
+//div[@id='cdk-describedby-message-xjn-1-16'] {'x': -1, 'y': 146} div cdk-describedby-message-xjn-1-16 None
