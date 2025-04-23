@@ -173,18 +173,17 @@ def process_command(command):
                 comparison_count += 1
                 func(driver, element, reference, comparison_count)
 
-
             elif action == "send_serial":
                 command = args[0]
                 response, error = func(command, address)
 
                 if error:
                     print(f"Serial command failed: {error}")
+
                     return "failed"
 
                 return "passed"
 
-            return "passed"
 
         except Exception as e:
             print(f"Error processing command '{command}': {e}")
