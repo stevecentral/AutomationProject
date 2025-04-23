@@ -136,6 +136,9 @@ class Ui_Dialog(object):
         self.logTabWidget.setTabText(self.logTabWidget.indexOf(self.tab_8), _translate("Dialog", "Tab 2"))
 
 
+
+
+
     # ====== Loging Methods ======
     # Creates a new tab with device's logs
     def add_log_tab(self):
@@ -301,10 +304,12 @@ class Ui_Dialog(object):
                 address = self.addressTextBox.text()
                 commands = self.commandsTextBox.toPlainText()
                 self.run_single_test(address, commands, "single_test")
+                """
                 QtCore.QMetaObject.invokeMethod(
                     self, "test_completed",
                     QtCore.Qt.ConnectionType.QueuedConnection
                 )
+                """
             except Exception as e:
                 QtCore.QMetaObject.invokeMethod(
                     self, "test_failed",
@@ -313,7 +318,7 @@ class Ui_Dialog(object):
                 )
 
         # Start the test in a new thread
-        self.test_thread = Thread(target=run_test)
+        self.test_thread = Thread(target=run_test, daemon=True)
         self.test_thread.start()
 
 
@@ -333,6 +338,8 @@ class Ui_Dialog(object):
                             QtCore.Qt.ConnectionType.QueuedConnection,
                             QtCore.Q_ARG(str, file_name)
                         )
+
+
                     except Exception as e:
                         QtCore.QMetaObject.invokeMethod(
                             self, "test_failed",
@@ -340,12 +347,13 @@ class Ui_Dialog(object):
                             QtCore.Q_ARG(str, f"Error in {file_name}: {str(e)}")
                         )
                         return
-
+                """
                 # Notify that the queue of tests is completed
                 QtCore.QMetaObject.invokeMethod(
                     self, "queue_completed",
                     QtCore.Qt.ConnectionType.QueuedConnection
                 )
+                """
             except Exception as e:
                 # Notify if there is an error in running tests
                 QtCore.QMetaObject.invokeMethod(
@@ -355,7 +363,7 @@ class Ui_Dialog(object):
                 )
 
         # Start the queue of tests in a new thread
-        self.test_thread = Thread(target=run_tests)
+        self.test_thread = Thread(target=run_tests, daemon=True)
         self.test_thread.start()
 
 
@@ -377,13 +385,20 @@ class Ui_Dialog(object):
             text=True,
             check=True
         )
-        print(f"Test {test_name} output:", result.stdout)
 
+        # Parse the response from stdout
+        stdout_lines = result.stdout.splitlines()
+        for line in stdout_lines:
+            if "[SERIAL_RESPONSE]" in line:
+                cleaned_response = line.replace("[SERIAL_RESPONSE]", "").strip()
+                self.apiOutput.append(f"API Output:\n{cleaned_response.replace(')(', ')\n(')}")
+        """
         # Notify that the single test is completed
         QtCore.QMetaObject.invokeMethod(
             self, "test_completed",
             QtCore.Qt.ConnectionType.QueuedConnection
         )
+        """
 
 
     # ====== Queue Methods ======
@@ -551,4 +566,4 @@ class AnotherWindow(QWidget):
         self.label = QtWidgets.QLabel("Instructions")
         layout.addWidget(self.label)
         self.setLayout(layout)
-    
+        
