@@ -448,40 +448,37 @@ def highlight(driver, element_name, current_page, config):
 
 # Send a command to the API
 def send_serial_command(command, address):
+    import asyncio
+
+    async def send():
+        reader, writer = await asyncio.open_connection(address, 3002)
+        writer.write(command.encode() + b'\n')
+        await writer.drain()
+
+        full_response = b""
+
+        try:
+            while True:
+                chunk = await asyncio.wait_for(reader.read(1024), timeout=1.0)
+                if not chunk:
+                    break
+                full_response += chunk
+                if b"--END--" in full_response:
+                    break
+        except asyncio.TimeoutError:
+            print("Timed out waiting for full response.")
+
+        writer.close()
+        await writer.wait_closed()
+
+        return full_response.decode(errors="ignore").strip()
+
     try:
-        import telnetlib3
-        import asyncio
-
-        async def send():
-            reader, writer = await telnetlib3.open_connection(
-                address,
-                23,  # Using port 23 like in log_handler
-                connect_minwait=0.1,
-                connect_maxwait=1.0
-            )
-
-            # Send the exact echo command
-            echo_command = f'echo "{command}" |nc {address}:3002\r\n'
-            writer.write(echo_command)
-            await writer.drain()
-
-            response = await reader.read(1024)
-            writer.close()
-
-            return response.strip()
-
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-        response = loop.run_until_complete(send())
-        loop.close()
-
-        print(f"Sent command: {command}")
-        print(f"Response: {response}")
-
+        response = asyncio.run(send())
+        print(f"[SERIAL_RESPONSE] {response}")
         return response, None
 
     except Exception as e:
         error_msg = f"Error sending command: {e}"
         print(error_msg)
         return None, error_msg
-
