@@ -5,7 +5,6 @@ import hjson
 import csv
 from openpyxl import load_workbook, Workbook
 from openpyxl.styles import Font
-from pkg_resources import working_set
 
 import action_functions
 from action_functions import (login, logout, power_cycle, check_element, screenshot, check_button, click, power_toggle,
@@ -182,13 +181,11 @@ def process_command(command):
 
                     return "failed"
 
-                return "passed"
-
+            return "passed"
 
         except Exception as e:
             print(f"Error processing command '{command}': {e}")
             return "failed"
-
     else:
         print(f"Unknown command: {action}")
         return "failed"
@@ -290,5 +287,6 @@ with open('input.txt', 'r') as file:
 # Save results to Excel
 save_excel_results(results_data, f"Test_{test_num}_{test_name}")
 print(f"Test {test_name} (#{test_num}) results added to {excel_filename}")
+
 
 
