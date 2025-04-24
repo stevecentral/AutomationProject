@@ -16,6 +16,8 @@ from action_functions import send_serial_command
 from log_handler import LogHandler
 import time
 
+from script_generator import run_test_from_file
+
 
 class AnotherWindow(QWidget):
     def __init__(self):
@@ -401,39 +403,25 @@ class Ui_Dialog(object):
         self.test_thread = Thread(target=run_tests, daemon=True)
         self.test_thread.start()
 
+
     # Execute a single test
     def run_single_test(self, address, commands, test_name):
         self.test_counter += 1
-        # Write commands to an input file
+
         with open('input.txt', 'w') as f:
             f.write(commands)
 
-        os.environ['ADDRESS'] = address
-        os.environ['TEST_NUM'] = str(self.test_counter)
-        os.environ['TEST_NAME'] = test_name
-
-        # Start subprocess and stream stdout
-        process = subprocess.Popen(
-            ["python", "script_generator.py"],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
-            bufsize=1  # line-buffered
-        )
-
-        # Read output line-by-line
-        for line in process.stdout:
-            line = line.strip()
+        def output_callback(line):
             if "[SERIAL_RESPONSE]" in line:
-                cleaned_response = line.replace("[SERIAL_RESPONSE]", "").strip()
-                self.apiOutput.append(f"API Output:\n{cleaned_response.replace(')(', ')\n(')}")
+                cleaned = line.replace("[SERIAL_RESPONSE]", "").strip()
+                self.apiOutput.append(f"API Output:\n{cleaned.replace(')(', ')\n(')}")
+            elif "FAILED" in line or "Error" in line:
+                self.apiOutput.append(f"[ERROR] {line}")
+            else:
+                self.apiOutput.append(line)
 
-        # Read stderr (optional: to show errors too)
-        error_output = process.stderr.read()
-        if error_output:
-            self.apiOutput.append(f"[ERROR] {error_output}")
+        run_test_from_file(address, str(self.test_counter), test_name, output_callback=output_callback)
 
-        _ = process.stderr.read()
 
     # ====== Queue Methods ======
     # Add a test script file to the queue
