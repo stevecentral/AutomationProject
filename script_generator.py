@@ -13,12 +13,14 @@ from action_functions import (login, logout, power_cycle, check_element, screens
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-
+#address = os.getenv('ADDRESS')
+global_address = None
+"""
 # Initialize the WebDriver
 driver = webdriver.Chrome()
 
 # Navigate to the specified URL
-address = os.getenv('ADDRESS')
+
 driver.get("http://" + str(address) + "/#/login")
 
 # Print the title of the page
@@ -29,7 +31,7 @@ print(f"Page title: {title}")
 # Count to keep track of the number of screenshots
 screenshot_count = 0
 comparison_count = 0
-
+"""
 # Define a dictionary to map commands to functions
 command_map = {
     "login": login,
@@ -80,7 +82,7 @@ with open('configuration.hjson', 'r') as file:
     config = hjson.load(file)
 
 
-def process_command(command):
+def process_command(command, output_callback=print):
     global screenshot_count
     global comparison_count
     # Split the command into parts
@@ -174,10 +176,10 @@ def process_command(command):
 
             elif action == "send_serial":
                 command = args[0]
-                response, error = func(command, address)
-
+                response, error = func(command, global_address)
+                output_callback(response)
                 if error:
-                    print(f"Serial command failed: {error}")
+                    output_callback(f"Serial command failed: {error}")
 
                     return "failed"
 
@@ -261,32 +263,52 @@ def save_excel_results(data, worksheet_name):
         raise  # Re-raise the exception for debugging
 
 
-results_data = []
 
-with open('input.txt', 'r') as file:
-    content = file.readlines()
-    # Keep track of the number of commands given and the amount that passed
-    command_count = 0
-    passed_count = 0
+def run_test_from_file(address, test_num, test_name, input_file='input.txt', output_callback=print):
+    global driver, screenshot_count, comparison_count, global_address
+    screenshot_count = 0
+    comparison_count = 0
+    global_address = address
 
-    # Process each line as a command
-    for line in content:
-        command_input = line.strip()
-        status = process_command(command_input)
-        results_data.append([command_input, status])
+    driver = webdriver.Chrome()
+    driver.get("http://" + str(address) + "/#/login")
+    print(f"Page title: {driver.title}")
 
-        command_count += 1
-        if status == "passed":
-            passed_count += 1
+    with open('configuration.hjson', 'r') as file:
+        global config
+        config = hjson.load(file)
 
-    pass_test = 'PASSED' if passed_count == command_count else 'FAILED'
+    global current_page
+    current_page = "login"
 
-    # Add summary row
-    results_data.append(['Total Passed', passed_count, 'Total Commands', command_count, 'RESULT', pass_test])
+    results_data = []
 
-# Save results to Excel
-save_excel_results(results_data, f"Test_{test_num}_{test_name}")
-print(f"Test {test_name} (#{test_num}) results added to {excel_filename}")
+    with open(input_file, 'r') as file:
+        content = file.readlines()
+        command_count = 0
+        passed_count = 0
+
+        for line in content:
+            command_input = line.strip()
+            status = process_command(command_input, output_callback)
+            results_data.append([command_input, status])
+            command_count += 1
+            if status == "passed":
+                passed_count += 1
+
+        pass_test = 'PASSED' if passed_count == command_count else 'FAILED'
+        results_data.append(['Total Passed', passed_count, 'Total Commands', command_count, 'RESULT', pass_test])
+
+    save_excel_results(results_data, f"Test_{test_num}_{test_name}")
+    output_callback(f"Test {test_name} (#{test_num}) results added to {excel_filename}")
+    driver.quit()
 
 
+
+if __name__ == "__main__":
+    address = os.getenv('ADDRESS')
+    test_num = os.getenv('TEST_NUM')
+    test_name = os.getenv('TEST_NAME')
+
+    run_test_from_file(address, test_num, test_name)
 
